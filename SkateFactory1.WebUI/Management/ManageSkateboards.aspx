@@ -17,6 +17,7 @@
     -->
     <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
     <link href="../Site.css" rel="stylesheet" />
+    
     <script src="../lib/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
@@ -87,6 +88,10 @@
                     </div>
                 </div>
                 <div style="background-color:aqua" class="col-md-6">
+                    <div class="col-md-3">
+                                <asp:Button ID="Button1"  CssClass="btn btn-primary" Text="Update" runat="server" />
+                                
+                            </div>
                     <asp:DataGrid ID="dgSkateboards" Width="100%" runat="server" AutoGenerateColumns="False">
 
 
