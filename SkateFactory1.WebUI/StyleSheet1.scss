@@ -1,0 +1,15 @@
+﻿@import "lib/bootstrap/scss/bootstrap";
+.myClass1{
+    font-weight:bold;
+}
+
+.myClass2{
+    @extend .myClass1;
+    font-style:italic;
+    font-weight:normal;
+}
+
+.my-col-md-6{
+    @extend .col-md-6;
+    width:75%;
+}
